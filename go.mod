@@ -1,4 +1,4 @@
-module Chise1/hello
+module github.com/Chise1/hello
 
 go 1.16
 
