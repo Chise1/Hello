@@ -8,6 +8,9 @@ func Hello() string {
 func HelloV2() string {
 	return "Hello,I'm back."
 }
+func HelloV3() string {
+	return "Hello,V3."
+}
 func Proverb() string {
 	return quoteV3.Concurrency()
 }

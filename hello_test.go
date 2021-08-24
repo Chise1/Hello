@@ -20,3 +20,9 @@ func TestHelloV2(t *testing.T) {
 		t.Errorf("HelloV2() = %q,want %q.", got, want)
 	}
 }
+func TestHelloV3(t *testing.T) {
+	want := "Hello,V3."
+	if got := HelloV3(); got != want {
+		t.Errorf("HelloV3() = %q,want %q.", got, want)
+	}
+}
